@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="Application.xlf" PsrId="308" FileType="1" SrcCul="en-US" TgtCul="pt-BR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@vsLocTools@\default.lss" Type="Lss" />
+  <Item ItemId=";Xliff file" ItemType="0" PsrId="308" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Xliff Resources" ItemType="0" PsrId="308" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";AddLauncherIsExclusive" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA['addlauncher' command can't be combined with any other command.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O comando 'addlauncher' não pôde ser combinado com nenhum outro comando.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ApplicationCacheCleared" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Application cache cleared.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O cache do aplicativo foi limpo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ApplicationManifestCannotHaveHostInBrowserTag" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified application manifest includes unsupported HostInBrowser tag.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O manifesto do aplicativo especificado inclui uma marca HostInBrowser sem suporte.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DefaultAppName" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New Application]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Novo Aplicativo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DeployManifestNotSigned" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Deployment manifest is not signed - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O manifesto de implantação não está assinado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DeployManifestSignatureInvalid" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Deployment manifest contains invalid signature - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O manifesto de implantação contém uma assinatura inválida – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorApplicactionCachedCleared" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to clear application cache.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Falha ao limpar o cache do aplicativo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorInvalidSignature" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manifest does not have a valid signature.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O manifesto não tem uma assinatura válida.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorInvalidTimestampFormat" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Timestamp is not encoded as a base64 string.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O carimbo de data/hora não está codificado como uma cadeia de caracteres base64.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorMessage" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorMissingSignatureNode" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Signature node is missing.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O nó da assinatura está ausente.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorWritingOutputFile" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error writing output file "{0}".]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erro ao gravar o arquivo de saída "{0}".]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FailedToAddLauncher" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to add Launcher.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Falha ao adicionar o Launcher.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FailedToUpdateLauncherResources" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to update Launcher resources.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Falha ao atualizar os recursos do Launcher.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FileNotWriteable" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot write to file "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não é possível gravar no arquivo "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FileTypeSpecificOption" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The "{0}" option can only be used with the following type of files: "{1}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção "{0}" só pode ser usada com o seguinte tipo de arquivo: "{1}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HelpTerse" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Commands]D;]A;  -New <file_type>	          -n]D;]A;  -Update <file_name>	          -u]D;]A;  -Sign <file_name>	          -s]D;]A;  -ClearApplicationCache	  -cc]D;]A;  -Verify <manifest_file_name>    -ver]D;]A;  -AddLauncher <binary_to_launch> -al]D;]A;  -Help [verbose]5D;		  -h -?]D;]A;]D;]A;]D;]A;]D;]A;Options]D;]A;  -Algorithm <sha256RSA>           -a]D;]A;  -AppCodeBase <path>	            -appc]D;]A;  -AppManifest <path>	            -appm]D;]A;  -CertFile <file_name>	            -cf]D;]A;  -CertHash <hash>                  -ch]D;]A;  -CryptoProvider <name>            -csp]D;]A;  -FromDirectory <path>	            -fd]D;]A;  -IconFile <file_path>             -if]D;]A;  -IncludeProviderURL <true|false>  -ip]D;]A;  -Install <true|false>             -i ]D;]A;  -KeyContainer <name>              -kc]D;]A;  -MinVersion <version #|none>      -mv]D;]A;  -Name <name>		            -n]D;]A;  -Password <password>	            -pwd]D;]A;  -Processor <processor>	    -p]D;]A;  -ProviderURL <url> 	            -pu]D;]A;  -Publisher <publisher_name>       -pub]D;]A;  -SupportURL <support_url>         -s]D;]A;  -TargetDirectory <path>	    -td]D;]A;  -TimeStampUri <uri>               -ti]D;]A;  -ToFile	<file_name>	    -t]D;]A;  -TrustLevel <level>	            -tr]D;]A;  -UseManifestForTrust <true|false> -um]D;]A;  -Version <version>	            -v]D;]A;]D;]A;Use "mage -help verbose" for more detailed help]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Comandos]D;]A;  -New <file_type>	          -n]D;]A;  -Update <file_name>	          -u]D;]A;  -Sign <file_name>	          -s]D;]A;  -ClearApplicationCache	  -cc]D;]A;  -Verify <manifest_file_name>    -ver]D;]A;  -AddLauncher <binary_to_launch> -al]D;]A;  -Help [detalhado]5D;		  -h -?]D;]A;]D;]A;]D;]A;]D;]A;Opções]D;]A;  -Algorithm <sha256RSA>           -a]D;]A;  -AppCodeBase <path>	            -appc]D;]A;  -AppManifest <path>	            -appm]D;]A;  -CertFile <file_name>	            -cf]D;]A;  -CertHash <hash>                  -ch]D;]A;  -CryptoProvider <name>            -csp]D;]A;  -FromDirectory <path>	            -fd]D;]A;  -IconFile <file_path>             -if]D;]A;  -IncludeProviderURL <true|false>  -ip]D;]A;  -Install <true|false>             -i ]D;]A;  -KeyContainer <name>              -kc]D;]A;  -MinVersion <version #|none>      -mv]D;]A;  -Name <name>		            -n]D;]A;  -Password <password>	            -pwd]D;]A;  -Processor <processor>	    -p]D;]A;  -ProviderURL <url> 	            -pu]D;]A;  -Publisher <publisher_name>       -pub]D;]A;  -SupportURL <support_url>         -s]D;]A;  -TargetDirectory <path>	    -td]D;]A;  -TimeStampUri <uri>               -ti]D;]A;  -ToFile	<file_name>	    -t]D;]A;  -TrustLevel <level>	            -tr]D;]A;  -UseManifestForTrust <true|false> -um]D;]A;  -Version <version>	            -v]D;]A;]D;]A;Use "mage -help verbose" para obter uma ajuda mais detalhada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HelpVerbose" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Commands:]D;]A;]D;]A;  -New <file_type>        -n]D;]A;      Generate a new application manifest, deployment manifest, or trust]D;]A;      license, using the options listed below.]D;]A;      Examples:]D;]A;        -New Application -ToFile MyApp.manifest -Name MyApp -Processor X86]D;]A;        -New Deployment -ToFile MyApp.application -Name MyApp -Version 1.0.0.0]D;]A;    ]D;]A;  -Update <file_name>     -u]D;]A;      Update an existing application manifest, deployment manifest, or trust]D;]A;      License, updating it as specified by the options listed below.]D;]A;      Examples:]D;]A;        -Update MyApp.manifest -FromDirectory bin/release]D;]A;        -Update MyApp.application -Version 2.1.0.123 -ToFile MyApp21.application ]D;]A;          ]D;]A;  -Sign <file_name>       -s]D;]A;      Sign an existing manifest or license with a keypair or an X509]D;]A;      certificate.]D;]A;      Examples:]D;]A;        -Sign MyApp.manifest -CertFile MyCert.pfx -Password mycertpassword]D;]A;    ]D;]A;  -Verify <manifest_file_name>       -ver]D;]A;      Verify if the manifest is signed correctly. Cannot be combined with other commands.]D;]A;      Example:]D;]A;        -Verify MyApp.manifest]D;]A;  ]D;]A;  -AddLauncher <binary_to_launch>    -al]D;]A;      Adds Launcher to target directory and sets its binary to launch.]D;]A;      Example:]D;]A;        -AddLauncher myapp.dll -TargetDirectory bin/release]D;]A;]D;]A;  -ClearApplicationCache  -cc]D;]A;      Clear the downloaded application cache of all online-only applications. ]D;]A;]D;]A;  -Help [verbose]5D;         -h -?]D;]A;      Print usage instructions.]D;]A;      Examples:]D;]A;        -Help]D;]A;        -Help Verbose]D;]A;]D;]A;Options:]D;]A;]D;]A;  -Algorithm <sha256RSA>      -a]D;]A;      Specifies the algorithm to generate digests.]D;]A;      Example:]D;]A;         -Algorithm sha256RSA]D;]A;]D;]A;  -AppCodeBase <path>     -appc]D;]A;      Specifies the code base of the app manifest to be placed in the]D;]A;      deployment manifest being generated or updated.]D;]A;      Example:]D;]A;         -AppCodeBase 1.0.0.0/myapp.manifest]D;]A;      ]D;]A;  -AppManifest <path>     -appm]D;]A;      Specifies the local path to an application manifest that is being]D;]A;      referenced from the deployment manifest being generated or updated.]D;]A;      Example:]D;]A;        -AppManifest MyApp.manifest]D;]A;]D;]A;  -CertFile <file_name>   -cf]D;]A;      Specifies the name of an X509 certificate file with which to sign a]D;]A;      manifest or license file.  This option can be used in conjunction ]D;]A;      with the -Password option, if the certificate requires a password]D;]A;      for Personal Information Exchange (PFX) files. If the file does not ]D;]A;      contain private key a combination of -CryptoProvider and ]D;]A;      -KeyContainer options is required.]D;]A;      Example:]D;]A;        -CertFile MyCert.pfx]D;]A;        -CertFile MyCert.pfx -Password mycertpassword]D;]A;        -CertFile PublicKey.cer -KeyContainer name -CryptoProvider MyCspName]D;]A;]D;]A;  -CertHash <hash>        -ch]D;]A;      Specifies the hash of an X509 certificate in your local cert store.]D;]A;      Example:]D;]A;        -CertHash a1b2c3d4e5f6g7h8i9j0]D;]A;]D;]A;  -CryptoProvider <name>  -csp]D;]A;      Specifies the name of cryptographic service provider (CSP) that contains]D;]A;      the private key container.  This option requires the -KeyContainer option.]D;]A;      Example:]D;]A;        -CryptoProvider "Microsoft Enhanced Cryptographic Provider v1.0" -KeyContainer name]D;]A;]D;]A;  -FromDirectory <path>   -fd]D;]A;      Specifies the directory to recursively search for files to include in]D;]A;      an application manifest.  ]D;]A;      Example:]D;]A;        -FromDirectory bin/release]D;]A;        ]D;]A;  -IconFile <file_path>   -if]D;]A;      Specifies relative path and filename for the application icon.]D;]A;        ]D;]A;  -IncludeProviderURL <true|false> -ip]D;]A;      Specifies if the deployment manifest will include the deployment ]D;]A;      provider URL.]D;]A;      ]D;]A;  -Install <true|false>   -i]D;]A;      Specifies if the application will be an installed or an online only ]D;]A;      application.]D;]A;]D;]A;  -KeyContainer <name>    -kc]D;]A;      Specifies the key container that contains the name of the private key.]D;]A;      This option requires the -CryptoProvider option.]D;]A;      Example:]D;]A;        -KeyContainer name -CryptoProvider "Microsoft Enhanced Cryptographic Provider v1.0"]D;]A;]D;]A;  -MinVersion <version #|none>   -mv]D;]A;      Specifies whether the manifest being generated specifies a minimum version.]D;]A;      Must be of the form "0.0.0.0".  Specifying "none" removes this from the manifest.]D;]A;      Example:]D;]A;        -MinVersion 1.2.3.4]D;]A;        -MinVersion none]D;]A;]D;]A;  -Name <name>            -n]D;]A;      Specifies the name of the application whose manifest is being ]D;]A;      generated or updated.  Names which include spaces should be enclosed]D;]A;      in quotes.]D;]A;      Examples:]D;]A;        -Name MyApp]D;]A;        -Name "My Application"]D;]A;        ]D;]A;  -Password <password>    -pwd]D;]A;      Specifies the password to use with an X509 certificate when signing]D;]A;      a manifest or license file.  See example above.]D;]A;]D;]A;  -Processor <processor>  -p]D;]A;      Specifies the processor architecture of the application whose manifest]D;]A;      is being generated or updated.]D;]A;      Examples:]D;]A;        -Processor MSIL]D;]A;        -Processor i386]D;]A;]D;]A;  -ProviderURL <url>      -pu]D;]A;      Specifies the provider URL to be use in the deployment manifest being]D;]A;      generated or updated.]D;]A;      Example:]D;]A;        -ProviderURL http://www.whatever.net/application]D;]A;]D;]A;  -Publisher <publisher_name>    -pub]D;]A;      Specifies the name of the publisher.  Names which include spaces should ]D;]A;      be enclosed in quotes.]D;]A;      Examples:]D;]A;        -Publisher MyCompany]D;]A;        -Publisher "My Company"]D;]A;]D;]A;  -SupportURL <url>       -s]D;]A;      Specifies the support URL for the application.]D;]A;      Example:]D;]A;        -SupportURL http://www.whatever.net/application/support]D;]A;]D;]A;  -TargetDirectory <path>	  -td]D;]A;      Specifies the directory to which to add the Launcher.]D;]A;      Example:]D;]A;        -TargetDirectory bin/release]D;]A;]D;]A;  -ToFile <file_name>     -t]D;]A;      Specifies the name of the file to save the output of a sign, new, or ]D;]A;      update command.]D;]A;      Example:]D;]A;        -ToFile MyApp.manifest]D;]A;]D;]A;  -TimeStampUri <uri>     -ti]D;]A;      Specifies the URI to use for timestamping during signing.]D;]A;]D;]A;  -TrustLevel <level>     -tr]D;]A;      Specifies the trust level to be included in the application manifest]D;]A;      being generated or updated. Valid values are: "Internet", "LocalIntranet",]D;]A;      and "FullTrust".]D;]A;      Example:]D;]A;        -TrustLevel FullTrust]D;]A;]D;]A;  -UseManifestForTrust <true|false> -um]D;]A;      Specifies if the application manifest will be used for certification and]D;]A;      branding information.]D;]A;            ]D;]A;  -Version <version>                -v]D;]A;      Specifies the version of the application whose manifest is being ]D;]A;      generated or updated.  Must be of the form "0.0.0.0".]D;]A;      Example:]D;]A;        -Version 1.2.3.2112]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Comandos:]D;]A;]D;]A;  -New <file_type>        -n]D;]A;      Gera um novo manifesto do aplicativo, manifesto de implantação ou licença]D;]A;      de confiança, usando as opções listadas abaixo.]D;]A;      Exemplos:]D;]A;        -New Application -ToFile MyApp.manifest -Name MyApp -Processor X86]D;]A;        -New Deployment -ToFile MyApp.application -Name MyApp -Version 1.0.0.0]D;]A;    ]D;]A;  -Update <file_name>     -u]D;]A;      Atualiza um manifesto do aplicativo, manifesto de implantação ou Licença de confiança existentes,]D;]A;      conforme especificado pelas opções listadas abaixo.]D;]A;      Exemplos:]D;]A;        -Update MyApp.manifest -FromDirectory bin/release]D;]A;        -Update MyApp.application -Version 2.1.0.123 -ToFile MyApp21.application ]D;]A;          ]D;]A;  -Sign <file_name>       -s]D;]A;      Assina um manifesto ou licença existente com um par de chaves ou um certificado]D;]A;      X509.]D;]A;      Exemplos:]D;]A;        -Sign MyApp.manifest -CertFile MyCert.pfx -Password mycertpassword]D;]A;    ]D;]A;  -Verify <manifest_file_name>       -ver]D;]A;      Verifica se o manifesto foi assinado corretamente. Não é possível combiná-lo com outros comandos.]D;]A;      Exemplo:]D;]A;        -Verify MyApp.manifest]D;]A;  ]D;]A;  -AddLauncher <binary_to_launch>    -al]D;]A;      Adiciona o Inicializador ao diretório de destino e define o binário a ser iniciado.]D;]A;      Exemplo:]D;]A;        -AddLauncher myapp.dll -TargetDirectory bin/release]D;]A;]D;]A;  -ClearApplicationCache  -cc]D;]A;      Limpa o cache do aplicativo baixado de todos os aplicativos somente online. ]D;]A;]D;]A;  -Help [detalhado]5D;         -h -?]D;]A;      Imprime instruções de uso.]D;]A;      Exemplos:]D;]A;        -Help]D;]A;        -Help Verbose]D;]A;]D;]A;Opções:]D;]A;]D;]A;  -Algorithm <sha256RSA>      -a]D;]A;      Especifica o algoritmo para gerar resumos.]D;]A;      Exemplo:]D;]A;         -Algorithm sha256RSA]D;]A;]D;]A;  -AppCodeBase <path>     -appc]D;]A;      Especifica a base de código do manifesto do aplicativo a ser colocado no]D;]A;      manifesto de implantação que está sendo gerado ou atualizado.]D;]A;      Exemplo:]D;]A;         -AppCodeBase 1.0.0.0/myapp.manifest]D;]A;      ]D;]A;  -AppManifest <path>     -appm]D;]A;      Especifica o caminho local para um manifesto do aplicativo que está sendo]D;]A;      referenciado no manifesto de implantação que está sendo gerado ou atualizado.]D;]A;      Exemplo:]D;]A;        -AppManifest MyApp.manifest]D;]A;]D;]A;  -CertFile <file_name>   -cf]D;]A;      Especifica o nome de um arquivo de certificado X509 com o qual assinar um]D;]A;      arquivo de licença ou manifesto.  Esta opção poderá ser usada em conjunto com ]D;]A;      a opção –Password, se o certificado requerer a senha]D;]A;      para arquivos PFX (Troca de Informações Pessoas). Se o arquivo não ]D;]A;      contiver a chave privada, uma combinação das opções -CryptoProvider e]D;]A;      -KeyContainer será exigida.]D;]A;      Exemplo:]D;]A;        -CertFile MyCert.pfx]D;]A;        -CertFile MyCert.pfx -Password mycertpassword]D;]A;        -CertFile PublicKey.cer -KeyContainer name -CryptoProvider MyCspName]D;]A;]D;]A;  -CertHash <hash>        -ch]D;]A;      Especifica o hash de um certificado X509 no seu repositório de certificado local.]D;]A;      Exemplo:]D;]A;        -CertHash a1b2c3d4e5f6g7h8i9j0]D;]A;]D;]A;  -CryptoProvider <name>  -csp]D;]A;      Especifica o nome do CSP (provedor de serviços de criptografia) que contém]D;]A;      o contêiner de chave privada.  Essa opção requer a opção -KeyContainer.]D;]A;      Exemplo:]D;]A;        -CryptoProvider "Microsoft Enhanced Cryptographic Provider v1.0" -KeyContainer name]D;]A;]D;]A;  -FromDirectory <path>   -fd]D;]A;      Especifica o diretório para pesquisar de modo recursivo arquivos para incluir no]D;]A;      manifesto do aplicativo.  ]D;]A;      Exemplo:]D;]A;        -FromDirectory bin/release]D;]A;        ]D;]A;  -IconFile <file_path>   -if]D;]A;      Especifica o caminho relativo e o nome de arquivo do ícone do aplicativo.]D;]A;        ]D;]A;  -IncludeProviderURL <true|false> -ip]D;]A;      Especifica se o manifesto de implantação incluirá a URL do provedor ]D;]A;      de implantação.]D;]A;      ]D;]A;  -Install <true|false>   -i]D;]A;      Especifica se o aplicativo será instalado]D;]A;      ou estará disponível somente online.]D;]A;]D;]A;  -KeyContainer <name>    -kc]D;]A;      Especifica o contêiner de chave com o nome da chave privada.]D;]A;      Esta opção requer a opção -CryptoProvider.]D;]A;      Exemplo:]D;]A;        -KeyContainer name -CryptoProvider "Microsoft Enhanced Cryptographic Provider v1.0"]D;]A;]D;]A;  -MinVersion <version #|none>   -mv]D;]A;      Especifica se o manifesto que está sendo gerado especifica uma versão mínima.]D;]A;      Ela precisa estar no formato "0.0.0.0".  Especificar "none" remove isso do manifesto.]D;]A;      Exemplo:]D;]A;        -MinVersion 1.2.3.4]D;]A;        -MinVersion none]D;]A;]D;]A;  -Name <name>            -n]D;]A;      Especifica o nome do aplicativo cujo manifesto está sendo ]D;]A;      gerado ou atualizado.  Os nomes que incluem espaços devem ser colocados entre]D;]A;      aspas.]D;]A;      Exemplos:]D;]A;        -Name MyApp]D;]A;        -Name "My Application"]D;]A;        ]D;]A;  -Password <password>    -pwd]D;]A;      Especifica a senha a ser usada com um certificado X509 ao assinar um]D;]A;      arquivo de licença ou manifesto.  Veja o exemplo acima.]D;]A;]D;]A;  -Processor <processor>  -p]D;]A;      Especifica a arquitetura do processador do aplicativo cujo manifesto ]D;]A;      está sendo gerado ou atualizado.]D;]A;      Exemplos:]D;]A;        -Processor MSIL]D;]A;        -Processor i386]D;]A;]D;]A;  -ProviderURL <url>      -pu]D;]A;      Especifica a URL do provedor a ser usada no manifesto de implantação que está sendo]D;]A;      gerado ou atualizado.]D;]A;      Exemplo:]D;]A;        -ProviderURL http://www.whatever.net/application]D;]A;]D;]A;  -Publisher <publisher_name>    -pub]D;]A;      Especifica o nome do editor.  Nomes que incluem espaços devem ser colocados entre ]D;]A;      aspas.]D;]A;      Exemplos:]D;]A;        -Publisher MyCompany]D;]A;        -Publisher "My Company"]D;]A;]D;]A;  -SupportURL <url>       -s]D;]A;      Especifica a URL de suporte do aplicativo.]D;]A;      Exemplo:]D;]A;        -SupportURL http://www.whatever.net/application/support]D;]A;]D;]A;  -TargetDirectory <path>	  -td]D;]A;      Especifica o diretório para o qual adicionar o Inicializador.]D;]A;      Exemplo:]D;]A;        -TargetDirectory bin/release]D;]A;]D;]A;  -ToFile <file_name>     -t]D;]A;      Especifica o nome do arquivo no qual salvar a saída de um comando ]D;]A;      update, new ou sign.]D;]A;      Exemplo:]D;]A;        -ToFile MyApp.manifest]D;]A;]D;]A;  -TimeStampUri <uri>     -ti]D;]A;      Especifica o URI a ser usado para colocar o carimbo de data/hora durante a assinatura.]D;]A;]D;]A;  -TrustLevel <level>     -tr]D;]A;      Especifica o nível de confiança a ser incluído no manifesto do aplicativo]D;]A;      que está sendo gerado ou atualizado. Os valores válidos são: "Internet", "LocalIntranet",]D;]A;      and "FullTrust".]D;]A;      Exemplo:]D;]A;        -TrustLevel FullTrust]D;]A;]D;]A;  -UseManifestForTrust <true|false> -um]D;]A;      Especifica se o manifesto do aplicativo será usado para certificação e]D;]A;      informações de marca.]D;]A;            ]D;]A;  -Version <version>                -v]D;]A;      Especifica a versão do aplicativo cujo manifesto está sendo ]D;]A;      gerado ou atualizado.  Precisa estar no formato "0.0.0.0".]D;]A;      Exemplo:]D;]A;        -Version 1.2.3.2112]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InfoMessage" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Informações]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InternalError" ItemType="0" PsrId="308" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Internal error, please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erro interno. Tente novamente mais tarde.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidAddLauncherOption" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The "{0}" option can not be used with -AddLauncher command.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção "{0}" não pode ser usada com o comando -AddLauncher.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidAlgorithmValue" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Algorithm has to be sha256RSA. Specified - "{0}".]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O algoritmo deve ser sha256RSA. Especificado – "{0}".]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidBinaryToLaunch" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Binary to launch cannot include a path, it can only be a filename - {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O binário a ser iniciado não pode incluir um caminho, ele pode apenas ser um nome de arquivo – {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidCertFile" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cert file is not of proper format - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O arquivo de certificado não está no formato adequado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidCertNoPrivateKey" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This certificate does not contain a private key - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Este certificado não contém uma chave privada – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidCertUsage" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This certificate cannot be used for signing - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Este certificado não pode ser usado para assinatura – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidCodebase" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The codebase is invalid - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A base de código é inválida – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidDirectory" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Directory not found - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Diretório não encontrado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidFileType" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid file type, must be "Application", or "Deployment"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tipo de arquivo inválido. Ele precisa ser "Aplicativo" ou "Implantação"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidHash" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No cert found matching specified hash - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenhum certificado encontrado que corresponde ao hash especificado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidIncludeProviderURL" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The -IncludeProviderURL option must be "true", "false", "t", or "f" - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção -IncludeProviderURL precisa ser "true", "false", "t" ou "f" – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidInputFile" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unrecognized file type - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tipo de arquivo não reconhecido – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidInstall" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The -Install option must be "true", "false", "t", or "f" - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção -Install precisa ser "true", "false", "t" ou "f" – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidKeyFile" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Key file is not of proper format - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O arquivo de chave não está no formato adequado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidMinVersion" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The minimum version specified is not valid.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A versão mínima especificada não é válida.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidNonAddLauncherOption" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The "{0}" option can only be used with -AddLauncher command.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção "{0}" só pode ser usada com o comando -AddLauncher.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidNonManifestOption" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The "{0}" option can only be used with the -Update or -New commands.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção "{0}" só pode ser usada com os comandos -Update ou -New.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidPassword" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cert password is incorrect - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A senha do certificado está incorreta – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidPath" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File not found - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Arquivo não encontrado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidProcessor" ItemType="0" PsrId="308" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown processor type "{0}".  Supported processor types are:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tipo de processador desconhecido "{0}".  Os tipos de processador com suporte são:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidRequiredUpdate" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The -RequiredUpdate option must be "true", "false", "t", or "f" - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção -RequiredUpdate precisa ser "true", "false", "t" ou "f" – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidTimestamp" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The timestamp URI specified is not valid.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O URI de carimbo de data/hora especificado não é válido.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidTrustLevel" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid trust level, must be either "LocalIntranet", "Internet", or "FullTrust" - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nível de confiança inválido. Ele precisa ser "LocalIntranet", "Internet" ou "FullTrust" – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidUrl" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The URL is not of the proper format - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A URL não tem o formato adequado – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidUseManifestForTrust" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The -UseManifestForTrust option must be "true", "false", "t", or "f" - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção -UseManifestForTrust precisa ser "true", "false", "t" ou "f" – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidVersion" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version must be of format X.X.X.X (ex 1.0.0.0) - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A versão precisa estar no formato X.X.X.X (por exemplo, 1.0.0.0) – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LauncherSuccessfullyAdded" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launcher successfully added.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O Launcher foi adicionado com êxito.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LockedFile" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Not including locked file {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O arquivo bloqueado {0} não está incluso]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingAddLauncherOption" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Missing {0} option, it is required with AddLauncher command.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opção {0} ausente. Ela é necessária com o comando AddLauncher.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingArgument" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Missing value following the "{0}" option]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Valor ausente após a opção "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingBinaryToLaunch" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Binary to launch cannot be empty.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O binário a ser iniciado não pode estar vazio.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingCspOrContainer" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This certificate does not contain a private key - "{0}", if this is a public key certificate, please provide valid cryptographic service provider and key container names]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Este certificado não contém uma chave privada "{0}". Se este for um certificado de chave pública, forneça um provedor de serviços de criptografia válido e os nomes de contêiner de chaves]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingDeploymentProviderUrl" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The IncludeProviderURL option is set to true, but no deployment provider Url is provided.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A opção IncludeProviderURL está definida como true, mas nenhuma URL do provedor de implantação é fornecida.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingLauncherTemplate" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launcher template "{0}" does not exist.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O modelo do Launcher "{0}" não existe.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingPassword" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Missing Password option, this is required when using the CertFile option.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opção de Senha ausente. Ela é necessária ao usar a opção CertFile.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingUseApplicationManifestForTrustInfo" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When generating or updating an application manifest, the {0} option can only be used when the UseManifestForTrust option is set to true.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ao gerar ou atualizar um manifesto do aplicativo, a opção {0} só poderá ser usada quando a opção UseManifestForTrust estiver definida como true.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MultipleKeys" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Only one type of signing method may be specified.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Somente um tipo de método de assinatura pode ser especificado.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NewLicense" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New License]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nova Licença]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoKeySpecified" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The -Sign command requires one of -CertFile, or -CertHash.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O comando -Sign requer -CertFile ou -CertHash.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoOutputFileSpecified" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No output file was specified.  Please use -ToFile <filename>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenhum arquivo de saída foi especificado.  Use -ToFile <filename>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoVerb" ItemType="0" PsrId="308" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The first argument must be one of the following: -New, -Update, -Sign, -Verify, -AddLauncher]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O primeiro argumento precisa ser um dos seguintes: -New, -Update, -Sign, -Verify, -AddLauncher]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NotAllowedCleanCache" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ClearApplicationCache should not be used with any other switch.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ClearApplicationCache não deve ser usado com nenhuma outra opção.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ResultSomeErrorsEncountered" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[However, some errors were encountered.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No entanto, alguns erros foram encontrados.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ResultSuccessfullyCreated" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[successfully created]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[criado com êxito]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ResultSuccessfullySigned" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[successfully signed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[assinado com êxito]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ResultSuccessfullyUpdated" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[successfully updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[atualizado com êxito]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SecurityMessage" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mage does not have the security permissions necessary to run.  Ensure that mage is not running from an untrusted source such as a network share or web site.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O Mage não tem as permissões de segurança necessárias para a execução. Verifique se o mage não está sendo executado de uma fonte não confiável, como um compartilhamento de rede ou um site da Web.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SignatureValidatedSuccessfully" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manifest has a valid signature.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O manifesto tem uma assinatura válida.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TooManyKeysSpecified" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Only one of -KeyFile, -CertFile, or -CertHash can be used.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Somente um -KeyFile, -CertFile ou -CertHash pode ser usado.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TrustLevelsNotSupportedOnNETCore" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting trust level is not supported on .NET Core]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não há suporte para a configuração de nível de confiança no .NET Core]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TrustLicenseNotSigned" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trust license is not signed - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A licença de confiança não está assinada – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";UnableToOpenCertificate" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to open certificate "{0}":]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não é possível abrir o certificado "{0}":]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";UnableToStartGUI" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to locate Mage UI - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não é possível localizar a interface do usuário do Mage – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";UnrecognizedParameter" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Parameter not recognized - "{0}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Parâmetro não reconhecido – "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";VerifyIsExclusive" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA['verify' command can't be combined with any other command.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O comando 'verify' não pode ser combinado com nenhum outro comando.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WarningMessage" ItemType="0" PsrId="308" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Warning]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aviso]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>
