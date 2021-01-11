@@ -1,7 +1,7 @@
 {
   "Projects": [
     {
-      "LanguageSet": "Azure_Languages",
+      "LanguageSet": "VS_Main_Languages",
       "LocItems": [
         {
           "SourceFile": "src\\clickonce\\MageCLI\\xlf\\Application.xlf",
